@@ -40,13 +40,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('Add me to your Chat', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('Channel📂', callback_data='help'),
+            InlineKeyboardButton('📂channel📂', callback_data='help'),
             InlineKeyboardButton('about', callback_data='about')
             ],[
             InlineKeyboardButton('search here movie', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('MAKER', url='https://t.me/ABHISHEKSVLOG'),
-            InlineKeyboardButton('movie club', url='https://t.me/cinemaenglish123')
+            InlineKeyboardButton('🏅dev🏅', url='https://t.me/ABHISHEKSVLOG'),
+            InlineKeyboardButton('🎥group🎥', url='https://t.me/cinemaenglish123')
             ],[
             InlineKeyboardButton('✗ Close the Menu ✗', callback_data='close_data')
         ]]
@@ -87,13 +87,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('Add me to your Chat', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('Channel📂', callback_data='help'),
+            InlineKeyboardButton('📂channel📂', callback_data='help'),
             InlineKeyboardButton('about', callback_data='about')
             ],[
             InlineKeyboardButton('search here movie', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('MAKER', url='https://t.me/ABHISHEKSVLOG'),
-            InlineKeyboardButton('movie club', url='https://t.me/CINEMAENGLISH123')
+            InlineKeyboardButton('🏅dev🏅', url='https://t.me/ABHISHEKSVLOG'),
+            InlineKeyboardButton('🎥group🎥', url='https://t.me/CINEMAENGLISH123')
             ],[
             InlineKeyboardButton('✗ Close the Menu ✗', callback_data='close_data')
         ]]
@@ -124,11 +124,11 @@ async def start(client, message):
         f_caption = f"{files.file_name}"
     buttons = [
         [
-            InlineKeyboardButton('support', url='https://t.me/JOSPSupport'),
-            InlineKeyboardButton('channel', url='https://t.me/JosProjects')
+            InlineKeyboardButton('🎥group🎥', url='https://t.me/Cinemaenglish123'),
+            InlineKeyboardButton('🏅dev🏅', url='https://t.me/Abhisheksvlog')
         ],
         [
-            InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/+y53tWFUw6Q43NzE9')
+            InlineKeyboardButton('📂channel📂', url=f'https://t.me/justaupdatechannel')
         ]
         ]
     await client.send_cached_media(
