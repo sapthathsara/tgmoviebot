@@ -1,4 +1,4 @@
-# Telegram Movie Bot
+# Telegram Movie Bot Pyrogram updated bot
 
 ## Features
 
