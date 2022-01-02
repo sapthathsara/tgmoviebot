@@ -440,29 +440,29 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('admin', callback_data='admin'),
-            InlineKeyboardButton('connect', callback_data='coct'),
+            InlineKeyboardButton('👮‍♂️admin👮‍♂️', callback_data='admin'),
+            InlineKeyboardButton('🔌connect🔌', callback_data='coct'),
             InlineKeyboardButton('filters', callback_data='auto_manual'),
             ],[
             InlineKeyboardButton('gtrans', callback_data='gtrans'),
-            InlineKeyboardButton('info', callback_data='info'),
-            InlineKeyboardButton('memes', callback_data='memes'),
+            InlineKeyboardButton('ℹ️infoℹ️', callback_data='info'),
+            InlineKeyboardButton('😃memes😃', callback_data='memes'),
             ],[
-            InlineKeyboardButton('paste', callback_data='paste'),
-            InlineKeyboardButton('password gen', callback_data='genpassword'),
-            InlineKeyboardButton('pin', callback_data='pin'),
+            InlineKeyboardButton('📋paste📋', callback_data='paste'),
+            InlineKeyboardButton('🔑password gen🔑', callback_data='genpassword'),
+            InlineKeyboardButton('📌pin📌', callback_data='pin'),
             ],[
             InlineKeyboardButton('purge', callback_data='purge'),
             InlineKeyboardButton('restric', callback_data='restric'),
-            InlineKeyboardButton('search', callback_data='search'),
+            InlineKeyboardButton('🔍search🔎', callback_data='search'),
             ],[
-            InlineKeyboardButton('music', callback_data='music'),
-            InlineKeyboardButton('tt-speech', callback_data='tts'),
-            InlineKeyboardButton('tgraph', callback_data='tgraph'),
+            InlineKeyboardButton('🎵music🎵', callback_data='music'),
+            InlineKeyboardButton('🎙️tt-speech🎙️', callback_data='tts'),
+            InlineKeyboardButton('🖼️tgraph🖼️', callback_data='tgraph'),
             ],[
-            InlineKeyboardButton('« Back', callback_data='start'),
-            InlineKeyboardButton('url shortner', callback_data='shortner'),
-            InlineKeyboardButton('zombies', callback_data='zombies'),
+            InlineKeyboardButton('« 🔙Back🔙', callback_data='start'),
+            InlineKeyboardButton('✂️url shortner✂️', callback_data='shortner'),
+            InlineKeyboardButton('🧟‍♂️zombies🧟‍♂️', callback_data='zombies'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
