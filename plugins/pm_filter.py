@@ -424,10 +424,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('📂channel📂', callback_data='help'),
             InlineKeyboardButton('about', callback_data='about')
             ],[
-            InlineKeyboardButton('search here movie', switch_inline_query_current_chat='')
+            InlineKeyboardButton('🔍search here movie🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🏅dev🏅', url='https://t.me/josprojects'),
-            InlineKeyboardButton('🎥group🎥', url='https://t.me/+y53tWFUw6Q43NzE9')
+            InlineKeyboardButton('🏅dev🏅', url='https://t.me/Abhisheksvlog'),
+            InlineKeyboardButton('🎥group🎥', url='https://t.me/cinemaenglish123')
             ],[
             InlineKeyboardButton('✗ Close the Menu ✗', callback_data='close_data')
         ]]
@@ -476,7 +476,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('status', callback_data='stats'),
             InlineKeyboardButton('source', callback_data='source')
             ],[
-            InlineKeyboardButton('search movie', switch_inline_query_current_chat='')
+            InlineKeyboardButton('🔍search movie🔎', switch_inline_query_current_chat='')
             ],[
             InlineKeyboardButton('help & commands', callback_data='help')
             ],[
