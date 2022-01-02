@@ -40,10 +40,10 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('Add me to your Chat', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('📂channel📂', callback_data='help'),
+            InlineKeyboardButton('📁channel📁', callback_data='help'),
             InlineKeyboardButton('about', callback_data='about')
             ],[
-            InlineKeyboardButton('search here movie', switch_inline_query_current_chat='')
+            InlineKeyboardButton('🔍search here movie🔎', switch_inline_query_current_chat='')
             ],[
             InlineKeyboardButton('🏅dev🏅', url='https://t.me/ABHISHEKSVLOG'),
             InlineKeyboardButton('🎥group🎥', url='https://t.me/cinemaenglish123')
@@ -87,10 +87,10 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('Add me to your Chat', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('📂channel📂', callback_data='help'),
+            InlineKeyboardButton('📁channel📁', callback_data='help'),
             InlineKeyboardButton('about', callback_data='about')
             ],[
-            InlineKeyboardButton('search here movie', switch_inline_query_current_chat='')
+            InlineKeyboardButton('🔍search here movie🔎', switch_inline_query_current_chat='')
             ],[
             InlineKeyboardButton('🏅dev🏅', url='https://t.me/ABHISHEKSVLOG'),
             InlineKeyboardButton('🎥group🎥', url='https://t.me/CINEMAENGLISH123')
@@ -128,7 +128,7 @@ async def start(client, message):
             InlineKeyboardButton('🏅dev🏅', url='https://t.me/Abhisheksvlog')
         ],
         [
-            InlineKeyboardButton('📂channel📂', url=f'https://t.me/justaupdatechannel')
+            InlineKeyboardButton('📁channel📁', url=f'https://t.me/justaupdatechannel')
         ]
         ]
     await client.send_cached_media(
