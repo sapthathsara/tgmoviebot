@@ -421,13 +421,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Add me to your Chat', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('help', callback_data='help'),
+            InlineKeyboardButton('📂channel📂', callback_data='help'),
             InlineKeyboardButton('about', callback_data='about')
             ],[
             InlineKeyboardButton('search here movie', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('updates', url='https://t.me/josprojects'),
-            InlineKeyboardButton('movie club', url='https://t.me/+y53tWFUw6Q43NzE9')
+            InlineKeyboardButton('🏅dev🏅', url='https://t.me/josprojects'),
+            InlineKeyboardButton('🎥group🎥', url='https://t.me/+y53tWFUw6Q43NzE9')
             ],[
             InlineKeyboardButton('✗ Close the Menu ✗', callback_data='close_data')
         ]]
