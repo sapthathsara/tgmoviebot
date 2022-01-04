@@ -348,11 +348,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{files.file_name}"
         buttons = [
             [
-                InlineKeyboardButton('🎥group🎥', url='https://t.me/cinemaenglish123'),
-                InlineKeyboardButton('🏅dev🏅', url='https://t.me/Abhisheksvlog')
+                InlineKeyboardButton('🎥Group🎥', url='https://t.me/cinemaenglish123'),
+                InlineKeyboardButton('🏅Dev🏅', url='https://t.me/Abhisheksvlog')
             ],
             [
-                InlineKeyboardButton('📁channel📁', url=f'https://t.me/justaupdatechannel')
+                InlineKeyboardButton('📁Channel📁', url=f'https://t.me/justaupdatechannel')
             ]
             ]
             
@@ -400,11 +400,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{title}"
         buttons = [
             [
-                InlineKeyboardButton('🎥group🎥', url='https://t.me/cinemaenglish123'),
-                InlineKeyboardButton('🏅dev🏅', url='https://t.me/Abhisheksvlog')
+                InlineKeyboardButton('🎥Group🎥', url='https://t.me/cinemaenglish123'),
+                InlineKeyboardButton('🏅Dev🏅', url='https://t.me/Abhisheksvlog')
             ],
             [
-                InlineKeyboardButton('📁channel📁', url=f'https://t.me/justaupdatechannel')
+                InlineKeyboardButton('📁Channel📁', url=f'https://t.me/justaupdatechannel')
             ]
             ]
         await query.answer()
@@ -421,13 +421,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Add me to your Chat', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('📂channel📂', callback_data='help'),
+            InlineKeyboardButton('📂Channel📂', callback_data='help'),
             InlineKeyboardButton('about', callback_data='about')
             ],[
-            InlineKeyboardButton('🔍search here movie🔎', switch_inline_query_current_chat='')
+            InlineKeyboardButton('🔍Search here movie🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🏅dev🏅', url='https://t.me/Abhisheksvlog'),
-            InlineKeyboardButton('🎥group🎥', url='https://t.me/cinemaenglish123')
+            InlineKeyboardButton('🏅Dev🏅', url='https://t.me/Abhisheksvlog'),
+            InlineKeyboardButton('🎥Group🎥', url='https://t.me/cinemaenglish123')
             ],[
             InlineKeyboardButton('✗ Close the Menu ✗', callback_data='close_data')
         ]]
@@ -473,12 +473,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('status', callback_data='stats'),
-            InlineKeyboardButton('source', callback_data='source')
+            InlineKeyboardButton('📃status📃', callback_data='stats'),
+            InlineKeyboardButton('👉source👈', callback_data='source')
             ],[
             InlineKeyboardButton('🔍search movie🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('help & commands', callback_data='help')
+            InlineKeyboardButton('🔥help & commands🔥', callback_data='help')
             ],[
             InlineKeyboardButton('« Back', callback_data='start'),
             InlineKeyboardButton('Close ✗', callback_data='close_data')
