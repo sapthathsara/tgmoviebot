@@ -20,8 +20,8 @@ Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
 ➥ Build Status: v1.0.1 [ Beta ]"""
 
     SOURCE_TXT = """<b>Source:</b>
-IMDb is a Open source project.
-Source: <a href='https://github.com/200920082007/tgmoviebot'>GitHub - Click here 👈</a>
+This bot is a Close source project.and my source code would be here
+Source: <a href='https://telegra.ph/file/6baaf6671f11859202814.jpg'>Source - Click here 👈</a>
 
 <b>DEVS:</b>
 - <a href='https://t.me/cinemaenglish123'>Cinema malayalam</a>
