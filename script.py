@@ -5,7 +5,7 @@ class Script(object):
 
 <b> 𝑱𝒖𝒂𝒕 𝑨𝒅𝒅 𝑴𝒆 𝑻𝒐 𝒀𝒐𝒖𝒓 𝑮𝒓𝒐𝒖𝒑 𝑨𝒏𝒅 𝑴𝒂𝒌𝒆 𝑴𝒆 𝑨𝒅𝒎𝒊𝒏,𝑰'𝑳𝑳 𝑷𝒓𝒐𝒗𝒊𝒅𝒆 𝑴𝑶𝑽𝑰𝑬𝑺 𝑻𝒉𝒆𝒓𝒆 🤓 :)
 
-𝑨𝒅𝒅 𝑴𝒆 𝑻𝒐 𝒀𝒐𝒖𝒓 𝑮𝒓𝒐𝒖𝒑 𝑨𝒏𝒅 𝑴𝒂𝒌𝒆 𝑴𝒆 𝑨𝒏 𝑨𝒅𝒎𝒊𝒏<a href='http://t.me/Tigershroofimdbot?startgroup=true'> , 🟡𝙏𝙝𝙚𝙣 𝙎𝙚𝙚 𝙈𝙮 𝙋𝙤𝙬𝙚𝙧𝙨✨️
+<a href='http://t.me/TigerShroffImdbot?startgroup=true'>𝑨𝒅𝒅 𝑴𝒆 𝑻𝒐 𝒀𝒐𝒖𝒓 𝑮𝒓𝒐𝒖𝒑 𝑨𝒏𝒅 𝑴𝒂𝒌𝒆 𝑴𝒆 𝑨𝒏 𝑨𝒅𝒎𝒊𝒏 </a>,🟡𝙏𝙝𝙚𝙣 𝙎𝙚𝙚 𝙈𝙮 𝙋𝙤𝙬𝙚𝙧𝙨✨️
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ©MᴀɪɴᴛᴀɪɴᴇD Bʏ:<a href='tg://user?id=1951205538'><b>༒ᶜʳᵃᶻʸᴮᴼˢˢ卂乃卄丨丂卄乇Ҝ༒</b></a> .</b>"""
 
@@ -26,11 +26,11 @@ This bot is a Close source project.and my source code would be here
 Source: <a href='https://telegra.ph/file/6baaf6671f11859202814.jpg'>Source - Click here 👈</a>
 
 <b>DEVS:</b>
-- <a href='https://t.me/cinemaenglish123'>Cinema malayalam</a>
+- <a href='https://t.me/abhisheksvlog'>༒ᶜʳᵃᶻʸᴮᴼˢˢ卂乃卄丨丂卄乇Ҝ༒</a>
 
-<b>SUPPORT GROUP</b>
+<b>Movie GROUP</b>
 - <a href='https://t.me/cinemaenglish123'>Cinema malayalam</a>"""
-
+- <a href='http://t.me/TigerShroffImdb'>Support Group </a>
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and Dingdi will respond whenever a keyword is found the message
