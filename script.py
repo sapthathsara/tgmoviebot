@@ -30,7 +30,7 @@ Source: <a href='https://telegra.ph/file/6baaf6671f11859202814.jpg'>Source - Cli
 
 <b>Movie GROUP</b>
 - <a href='https://t.me/cinemaenglish123'>Cinema malayalam</a>"""
-- <a href='http://t.me/TigerShroffImdb'>Support Group </a>
+
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and Dingdi will respond whenever a keyword is found the message
