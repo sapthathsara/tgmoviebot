@@ -11,8 +11,8 @@ class Script(object):
 
     HELP_TXT = """Hey {}
 
-<b>മോനെ Features എങ്ങനെയുൺ <a href='tg://user?id=1951205538'><b>'>𝑹𝒂𝒕𝒆 𝒊𝒕 𝒉𝒆𝒓𝒆 </a>
-Hey How's the features Did you Like it <a href='tg://user?id=1951205538'><b>'>𝑹𝒂𝒕𝒆 𝒊𝒕 𝒉𝒆𝒓𝒆 </a></b>"""
+<b>മോനെ Features എങ്ങനെയുൺ <a href='tg://user?id=1951205538'><b>𝑹𝒂𝒕𝒆 𝒊𝒕 𝒉𝒆𝒓𝒆 </a>
+Hey How's the features Did you Like it <a href='tg://user?id=1951205538'><b>𝑹𝒂𝒕𝒆 𝒊𝒕 𝒉𝒆𝒓𝒆 </a></b>"""
 
     ABOUT_TXT = """<b>➥ My name: {}
 ➥ Creator: <a href='tg://user?id=1951205538'><b>༒ᶜʳᵃᶻʸᴮᴼˢˢ卂乃卄丨丂卄乇Ҝ༒</b></a>
