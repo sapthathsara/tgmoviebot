@@ -15,12 +15,14 @@ class Script(object):
 Hey How's the features Did you Like it <a href='tg://user?id=1951205538'><b>𝑹𝒂𝒕𝒆 𝒊𝒕 𝒉𝒆𝒓𝒆 </a></b>"""
 
     ABOUT_TXT = """<b>➥ My name: {}
-➥ Creator: <a href='tg://user?id=1951205538'><b>༒ᶜʳᵃᶻʸᴮᴼˢˢ卂乃卄丨丂卄乇Ҝ༒</b></a>
-➥ Library: Pyrogram
-➥ Language: Python 𝟹
-➥ Data Base: MongoDB
-➥ Bot Server: Railway/Heroku
-➥ Build Status: v1.0.1 [ Beta ]"""
+➪ 𝑪𝒓𝒆𝒂𝒕𝒆𝒓: <a href='tg://user?id=1951205538'><b>༒ᶜʳᵃᶻʸᴮᴼˢˢ卂乃卄丨丂卄乇Ҝ༒</b></a>
+➪ 𝑪𝒓𝒆𝒅𝒊𝒕𝒔 : <a href='https://t.me/Abhisheksvlog'>Everyone in this journey </a>
+➪ 𝑳𝒊𝒃𝒓𝒂𝒓𝒚 :<a href='https://docs.pyrogram.org/'>𝑷ʏʀᴏɢʀᴀᴍ </a>
+➪ 𝑳𝒂𝒏𝒈𝒖𝒂𝒈𝒆 : <a href='https://docs.pyrogram.org/'>𝑷𝒚𝒕𝒉𝒐𝒏 3 </a>
+➪ 𝑫𝒂𝒕𝒂 𝑩𝒂𝒔𝒆 : <a href='https://www.mongodb.com/'>𝑴𝒐𝒏𝒈𝒐 𝑫𝑩</a>
+➪ 𝑩𝒐𝒕 𝑺𝒆𝒓𝒗𝒆𝒓 : <a href='https://dashboard.heroku.com/apps'>𝑯𝒆𝒓𝒐𝒌𝒖</a>
+➪ 𝑺𝒐𝒖𝒓𝒄𝒆 𝑪𝒐𝒅𝒆 :<a href='https://t.me/cinemaenglish123'>𝑪𝒍𝒊𝒄𝒌 𝑯𝒆𝒓𝒆</a>
+➪ 𝑩𝒖𝒊𝒍𝒅 𝑺𝒕𝒂𝒕𝒖𝒔 : <a href='https://t.me/TigerShroffimdbot'>𝒗1.0.1[𝑩𝑬𝑻𝑨]</a>"""
 
     SOURCE_TXT = """<b>Source:</b>
 This bot is a Close source project.and my source code would be here
