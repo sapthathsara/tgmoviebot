@@ -440,24 +440,24 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('👮‍♂️admin👮‍♂️', callback_data='admin'),
-            InlineKeyboardButton('🔌connect🔌', callback_data='coct'),
-            InlineKeyboardButton('filters', callback_data='auto_manual'),
+            InlineKeyboardButton('𝑎𝑑𝑚𝑖𝑛𝑠', callback_data='admin'),
+            InlineKeyboardButton('𝑐𝑜𝑛𝑛𝑒𝑐𝑡', callback_data='coct'),
+            InlineKeyboardButton('𝑓𝑖𝑙𝑡𝑒𝑟𝑠', callback_data='auto_manual'),
             ],[
-            InlineKeyboardButton('gtrans', callback_data='gtrans'),
-            InlineKeyboardButton('ℹ️infoℹ️', callback_data='info'),
-            InlineKeyboardButton('😃memes😃', callback_data='memes'),
+            InlineKeyboardButton('𝑔𝑡𝑟𝑎𝑛𝑠', callback_data='gtrans'),
+            InlineKeyboardButton('𝑖𝑛𝑓𝑜𝑟𝑚𝑎𝑡𝑖𝑜𝑛', callback_data='info'),
+            InlineKeyboardButton('𝑚𝑒𝑚𝑒', callback_data='memes'),
             ],[
-            InlineKeyboardButton('📋paste📋', callback_data='paste'),
-            InlineKeyboardButton('🔑password gen🔑', callback_data='genpassword'),
-            InlineKeyboardButton('📌pin📌', callback_data='pin'),
+            InlineKeyboardButton('𝑝𝑎𝑠𝑡𝑒', callback_data='paste'),
+            InlineKeyboardButton('𝑝𝑎𝑠𝑠𝑤𝑜𝑟𝑑 𝑔𝑒𝑛', callback_data='genpassword'),
+            InlineKeyboardButton('𝑝𝑖𝑛', callback_data='pin'),
             ],[
-            InlineKeyboardButton('purge', callback_data='purge'),
-            InlineKeyboardButton('restric', callback_data='restric'),
+            InlineKeyboardButton('𝑝𝑢𝑟𝑔𝑒', callback_data='purge'),
+            InlineKeyboardButton('𝑟𝑒𝑠𝑡𝑟𝑖𝑐𝑡𝑖𝑜𝑛𝑠', callback_data='restric'),
             InlineKeyboardButton('🔍search🔎', callback_data='search'),
             ],[
-            InlineKeyboardButton('🎵music🎵', callback_data='music')
-            InlineKeyboardButton('🖼️tgraph🖼️', callback_data='tgraph'),
+            InlineKeyboardButton('𝑚𝑢𝑠𝑖𝑐', callback_data='music')
+            InlineKeyboardButton('𝑡𝑒𝑙𝑒𝑔𝑟𝑎𝑝𝒉', callback_data='tgraph'),
             ],[
             InlineKeyboardButton('« 🔙Back🔙', callback_data='start'),
             InlineKeyboardButton('✂️url shortner✂️', callback_data='shortner'),
