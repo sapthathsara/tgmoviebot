@@ -40,6 +40,14 @@ Source: <a href='https://telegra.ph/file/6baaf6671f11859202814.jpg'>Source - Cli
 
 <b>Movie GROUP</b>
 - <a href='https://t.me/cinemaenglish123'>Cinema malayalam</a>"""
+    WHOIS_TXT ="""<b>WHOIS MODULE</b>
+Note:- Give a user details
+
+•/whois :-give a user full details"""
+    CORONA_TXT ="""<b>Here is the help for the coron information module</b>
+➡️ /covid <code>(countryname)</code> <b>you can find a corona information of every country</b>
+➡️ <b>example</b> : - /covid India"""
+    STICKER_TXT ="""<b>COMMAND /stickerid\n𝖨𝖿 𝖸𝗈𝗎 𝖭𝖾𝖾𝖽 𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗆 𝖲𝗍𝗂𝖼𝗄𝖾𝗋 𝖨𝖽 𝖢𝗅𝗂𝖼𝗄 /stickerid 𝖳𝗈 𝖦𝖾𝗍 𝖲𝗍𝗂𝖼𝗄𝖾𝗋 𝖨𝖽 (𝖱𝖾𝗉𝗅𝗒 𝖶𝗂𝗍𝗁 𝖲𝗍𝗂𝖼𝗄𝖾𝗋)</b>"""
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
