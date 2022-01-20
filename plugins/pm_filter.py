@@ -462,6 +462,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[           
             InlineKeyboardButton('𝑈𝑅𝐿 𝑠𝒉𝑜𝑟𝑡𝑛𝑒𝑟', callback_data='shortner'),
             InlineKeyboardButton('𝑖𝑛𝑓𝑜𝑟𝑚𝑎𝑡𝑖𝑜𝑛', callback_data='info'),
+            InlineKeyboardButton('𝑤𝒉𝑜𝑖𝑠', callback_data='whois'),
             ],[
             InlineKeyboardButton('« 𝐵𝑎𝑐𝑘', callback_data='start'),
             
@@ -512,6 +513,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text=Script.MANUALFILTER_TXT,
             disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "whois":
+        buttons = [[
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.WHOIS_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
