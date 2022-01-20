@@ -703,7 +703,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.CORONA_TXT,
+            text=Script.CORONA_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
@@ -713,7 +713,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.STICKER_TXT,
+            text=Script.STICKER_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
