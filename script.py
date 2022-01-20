@@ -40,10 +40,6 @@ Source: <a href='https://telegra.ph/file/6baaf6671f11859202814.jpg'>Source - Cli
 
 <b>Movie GROUP</b>
 - <a href='https://t.me/cinemaenglish123'>Cinema malayalam</a>"""
-    WHOIS_TXT ="""<b>WHOIS MODULE</b>
-Note:- Give a user details
-
-•/whois :-give a user full details"""
     CORONA_TXT ="""<b>Here is the help for the coron information module</b>
 ➡️ /covid <code>(countryname)</code> <b>you can find a corona information of every country</b>
 ➡️ <b>example</b> : - /covid India"""
