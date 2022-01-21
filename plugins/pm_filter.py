@@ -348,11 +348,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{files.file_name}"
         buttons = [
             [
-                InlineKeyboardButton('🎥Group🎥', url='https://t.me/cinemaenglish123'),
-                InlineKeyboardButton('🏅Dev🏅', url='https://t.me/Abhisheksvlog')
+                InlineKeyboardButton('🎥Group🎥', url='https://t.me/NFW_Group'),
+                InlineKeyboardButton('🏅Dev🏅', url='https://t.me/SAPTHATHSARA')
             ],
             [
-                InlineKeyboardButton('📁Channel📁', url=f'https://t.me/justaupdatechannel')
+                InlineKeyboardButton('📁Channel📁', url=f'https://t.me/NFW_updates')
             ]
             ]
             
@@ -400,11 +400,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{title}"
         buttons = [
             [
-                InlineKeyboardButton('🎥Group🎥', url='https://t.me/cinemaenglish123'),
-                InlineKeyboardButton('🏅Dev🏅', url='https://t.me/Abhisheksvlog')
+                InlineKeyboardButton('🎥Group🎥', url='https://t.me/NFW_Group'),
+                InlineKeyboardButton('🏅Dev🏅', url='https://t.me/SAPTHATHSARA')
             ],
             [
-                InlineKeyboardButton('📁Channel📁', url=f'https://t.me/justaupdatechannel')
+                InlineKeyboardButton('📁Channel📁', url=f'https://t.me/NFW_updates')
             ]
             ]
         await query.answer()
@@ -426,10 +426,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('🔍𝑠𝑒𝑎𝑟𝑐𝒉 𝒉𝑒𝑟𝑒 𝑚𝑜𝑣𝑖𝑒🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟', url='https://t.me/ABHISHEKSVLOG'),
-            InlineKeyboardButton('𝐺𝑟𝑜𝑢𝑝', url='https://t.me/cinemaenglish123')
+            InlineKeyboardButton('𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟', url='https://t.me/SAPTHATHSARA'),
+            InlineKeyboardButton('𝐺𝑟𝑜𝑢𝑝', url='https://t.me/NFW_Group')
             ],[
-            InlineKeyboardButton('𝑈𝑃𝐷𝐴𝑇𝐸𝑆 𝐶𝐻𝐴𝑁𝑁𝐸𝐿', url='https://t.me/Justaupdatechannel'),
+            InlineKeyboardButton('𝑈𝑃𝐷𝐴𝑇𝐸𝑆 𝐶𝐻𝐴𝑁𝑁𝐸𝐿', url='https://t.me/NFW_updates'),
             InlineKeyboardButton('✗ 𝐶𝑙𝑜𝑠𝑒 𝑇𝒉𝑒 𝑀𝑒𝑛𝑢 ✗', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -880,7 +880,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>🎬 Title:</b> {search}\n</b>\n<b><a href='https://t.me/+q9NMdy0rY10zZWZl'>© IMDb (Series & Movies) Studio</a></b>\n\n<b>✍️ Note:</b> <s>This message will be Auto-deleted after 10 minutes to avoid copyright issues.</s>"
+        cap = f"<b>🎬 Title:</b> {search}\n</b>\n<b><a href='https://t.me/NFW_updates'>© IMDb (Series & Movies) Studio</a></b>\n\n<b>✍️ Note:</b> <s>This message will be Auto-deleted after 10 minutes to avoid copyright issues.</s>"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_to_message_id=reply_id, reply_markup=InlineKeyboardMarkup(btn))
