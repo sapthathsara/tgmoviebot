@@ -39,7 +39,7 @@ Source: <a href='https://telegra.ph/file/6baaf6671f11859202814.jpg'>Source - Cli
 - <a href='https://t.me/abhisheksvlog'>༒ᶜʳᵃᶻʸᴮᴼˢˢ卂乃卄丨丂卄乇Ҝ༒</a>
 
 <b>Movie GROUP</b>
-- <a href='https://t.me/cinemaenglish123'>Cinema malayalam</a>"""
+- <a href='https://t.me/NFW_Group'>Cinema malayalam</a>"""
     WHOIS_TXT ="""<b>WHOIS MODULE</b>
 Note:- Give a user details
 •/whois :-give a user full details"""
